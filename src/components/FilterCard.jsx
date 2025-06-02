@@ -21,7 +21,7 @@ const filterData=[
   ,
   {
     filterType:"Job Type",
-    array:["Full -Time","PartTime","Internship","Remote"]
+    array:["Full-Time","Part-Time","Internship","Remote"]
   }
 ]
 const FilterCard = () => {
