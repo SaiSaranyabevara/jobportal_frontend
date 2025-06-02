@@ -8,7 +8,7 @@ const Footer = () => {
         
         {/* Brand */}
         <div>
-          <h2 className="text-xl font-bold text-gray-900 mb-4">JobPortal</h2>
+          <h2 className="text-xl font-bold text-gray-900 mb-4">EasyExplore</h2>
           <p className="text-sm">
             Empowering students with the right guidance for a brighter future.
           </p>
@@ -46,7 +46,7 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-gray-300 mt-8 pt-4 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} JobPortal. All rights reserved.
+        © {new Date().getFullYear()} EasyExplore. All rights reserved.
       </div>
     </footer>
   );
