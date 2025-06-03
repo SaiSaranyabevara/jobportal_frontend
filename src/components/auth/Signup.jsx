@@ -66,7 +66,7 @@ const dispatch =useDispatch();
             }
         } catch (error) {
              console.log(error);
-            toast.error(error.res.data.message);
+            toast.error(error.response?.data?.message || "Something went wrong");
         }
         finally{
             dispatch(setLoading(false))
